@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: fontone;
+}
+
+@font-face {
+  font-family: fontone;
+  src: url(../webfonts/Poppins-Medium.ttf);
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit:contain;
+}
+
+.con {
+  overflow-y: scroll;
+}
+
+.con::-webkit-scrollbar {
+  display: none;
+}

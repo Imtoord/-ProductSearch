@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class=" d-flex justify-content-center align-items-center vh-100">
+        <div class="h-75 w-50 p-2 border rounded con  shadow" style="background-color: rgb(247, 248, 245);">
+
+            <!-- Header Section -->
+            <header class="text-center mb-3">
+                <h1>Product Search</h1>
+                <input class="form-control" type="text" id="searchInput" placeholder="Search for products"
+                    onkeyup="search()">
+            </header>
+
+
+            <!-- Main Content Section -->
+            <main>
+                <ul id="productList">
+                    <li class="d-flex">
+                        <img src="images/N53333649A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Skullcandy Dime 2 True Wireless</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N53377074A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Riff Wireless 2 On-Ear Headphones With Mic</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N52338056A_2.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Grind True Wireless In-Ear Earbuds with Hands-Free Voice Control True Black</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1.jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>T500 Smart Watch Compatible With Android & Ios</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (1).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>Huawei Watch GT2 Pro / Classic B19V Smart Watch - Nebula Gray</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (2).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>realme Buds T100 Bluetooth 5.3 - IPX5 Water Resistant - White</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N53333649A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Skullcandy Dime 2 True Wireless</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N53377074A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Riff Wireless 2 On-Ear Headphones With Mic</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N52338056A_2.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Grind True Wireless In-Ear Earbuds with Hands-Free Voice Control True Black</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1.jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>T500 Smart Watch Compatible With Android & Ios</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (1).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>Huawei Watch GT2 Pro / Classic B19V Smart Watch - Nebula Gray</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (2).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>realme Buds T100 Bluetooth 5.3 - IPX5 Water Resistant - White</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N53333649A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Skullcandy Dime 2 True Wireless</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N53377074A_1.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Riff Wireless 2 On-Ear Headphones With Mic</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/N52338056A_2.avif" alt="">
+                        <div class="description ps-3">
+                            <h4>Grind True Wireless In-Ear Earbuds with Hands-Free Voice Control True Black</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1.jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>T500 Smart Watch Compatible With Android & Ios</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (1).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>Huawei Watch GT2 Pro / Classic B19V Smart Watch - Nebula Gray</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <img src="images/1 (2).jpg" alt="">
+                        <div class="description ps-3">
+                            <h4>realme Buds T100 Bluetooth 5.3 - IPX5 Water Resistant - White</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad </p>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
